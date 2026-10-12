@@ -1,3 +1,5 @@
+> Archived. Part of the XeWe LED family; see https://github.com/xewe-labs/xewe-led-os.
+
 # XeWe LED - Ceiling — voice-controlled ceiling lights on an ESP8266
 
 Personal project · 2023-09 → 2024-07 · Solo: Max Dokukin · Status: Completed · Related: [XeWe LED OS](https://github.com/xewe-labs/xewe-led-os)
@@ -10,7 +12,7 @@ Smarthome Lights ESP is the firmware behind a 276-LED addressable strip mounted 
 joins the home WiFi and exposes the lights to Apple HomeKit (and therefore Siri) and to Amazon Alexa at the same time,
 so either ecosystem can switch them, dim them and change their color. Each strip has two modes: solid color and a
 Perlin-noise "fade" that drifts the strip through slowly moving waves around the chosen hue. The same sketch also drives
-a 61-LED desk strip from the same board (documented in [xewe-led-desk](https://github.com/xewe-labs/xewe-led-desk)); the
+a 61-LED desk strip from the same board (documented in [led-desk](https://github.com/xewe-labs/led-desk)); the
 ceiling strip grew from a 64-LED ceiling-only prototype to 151 and then 276 LEDs.
 
 ## Highlights
@@ -79,4 +81,4 @@ blocks; add them before compiling. Change the HomeKit setup code in `my_accessor
 
 - Photos and videos of the installation: [`static/media/resources/`](static/media/resources/)
 - Earlier versions and crash logs: [`Archived Versions/`](Archived%20Versions/)
-- Related: [XeWe LED OS](https://github.com/xewe-labs/xewe-led-os) — modular LED firmware for ESP32 boards ([project page](https://maxdokukin.com/projects/xewe-led-os)); [xewe-led-desk](https://github.com/xewe-labs/xewe-led-desk) — the desk strip on the same firmware
+- Related: [XeWe LED OS](https://github.com/xewe-labs/xewe-led-os) — modular LED firmware for ESP32 boards ([project page](https://maxdokukin.com/projects/xewe-led-os)); [led-desk](https://github.com/xewe-labs/led-desk) — the desk strip on the same firmware
